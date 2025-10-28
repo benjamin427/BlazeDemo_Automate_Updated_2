@@ -9,4 +9,5 @@ jobs:
       - name: cypress.io
         uses: cypress-io/github-action@v6
         with:
-           start: npm run cypress:run:electron
+          working-directory: ./cypress
+          start: npm run cypress:run:electron
