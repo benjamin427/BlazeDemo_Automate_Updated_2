@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+      - name: npm installation
+        uses: npm install
       - name: cypress.io
         uses: cypress-io/github-action@v6
         with:
