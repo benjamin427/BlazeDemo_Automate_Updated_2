@@ -1,0 +1,12 @@
+name: CI CD Workflow Tests
+on: [push]
+jobs: 
+  BlazeDemo_cypress_browser_electron:
+    runs-on: windows-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: cypress.io
+        uses: cypress-io/github-action@v6
+        with:
+          - start: npm run cypress:run:electron
