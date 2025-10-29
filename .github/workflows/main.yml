@@ -9,5 +9,4 @@ jobs:
       - name: cypress.io
         uses: cypress-io/github-action@v6
         with:
-         working-directory: ./cypress
-
+         working-directory: cypress/*
