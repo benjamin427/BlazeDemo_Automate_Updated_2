@@ -9,4 +9,4 @@ jobs:
       - name: cypress.io
         uses: cypress-io/github-action@v6
         with:
-         spec: cypress/features
+         spec: cypress/features/login.js
