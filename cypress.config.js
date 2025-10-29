@@ -14,6 +14,6 @@ module.exports = defineConfig({
       return config
     },
 //    specPattern: "C:/Users/Benjamin/Documents/BlazeDemo_Automate_Updated_ 3/cypress/features/*",
-//    supportFile: false
+    supportFile: false
   },
 });
