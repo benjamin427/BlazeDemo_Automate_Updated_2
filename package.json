@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "cypress:open:electron": "cypress open --e2e --browser electron",
-    "cypress:run:electron": "npx cypress run --spec cypress/features/* --e2e --browser electron"
+    "cypress:run:electron": "cypress run --spec=cypress/features/* --e2e --browser electron"
   },
   "devDependencies": {
     "chai": "^6.2.0",
