@@ -14,5 +14,6 @@ module.exports = defineConfig({
       return config
     },
     specPattern: "**/*.feature",
+    supportFile: false
   },
 });
