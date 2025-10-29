@@ -13,7 +13,7 @@ module.exports = defineConfig({
       addCucumberpreprocessor(on, config)
       return config
     },
-    specPattern: "**/*.feature",
+    specPattern: "/BlazeDemo_Automate_Updated_ 3/cypress/features/*",
     supportFile: false
   },
 });
