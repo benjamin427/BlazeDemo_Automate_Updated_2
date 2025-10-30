@@ -9,4 +9,4 @@ jobs:
       - name: cypress.io
         uses: cypress-io/github-action@v6
         with:
-         spec: cypress/*.cy.js
+         start: npx cypress run --spec=cypress/feature/* --e2e --browser electron
