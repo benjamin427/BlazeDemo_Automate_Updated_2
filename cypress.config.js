@@ -15,6 +15,6 @@ module.exports = defineConfig({
     },
     specPattern: '**/*.feature',
 //    specPattern: 'cypress/*.cy.js',
-//    supportFile: false
+    supportFile: 'cypress/support/*'
   },
 });
