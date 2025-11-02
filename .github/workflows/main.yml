@@ -10,5 +10,5 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
 #         working-directory: C:/Users/Benjamin/Documents/BlazeDemo_Automate_Updated_3/cypress
-          uses: npx cypress run --e2e cypress/**/features/*.cy.js 
+          start: npx cypress run --e2e cypress/**/features/*.cy.js 
           
