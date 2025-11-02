@@ -9,6 +9,6 @@ jobs:
       - name: cypress.io
         uses: cypress-io/github-action@v6
         with:
-         working-directory: ./cypress
+         working-directory: BlazeDemo_Automate_Updated_3/cypress
          start: npx cypress run --e2e cypress/**/features/*.cy.js 
           
