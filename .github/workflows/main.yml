@@ -8,9 +8,7 @@ jobs:
         uses: actions/checkout@v4
       - name: cypress.io
         uses: cypress-io/github-action@v6
-      - name: support file
-        uses: cypress/support/e2e.js
         with:
-#         working-directory: BlazeDemo_Automate_Updated_3/cypress
+         working-directory: ./cypress/*
          start: npx cypress run --e2e cypress/**/features/*.cy.js 
           
