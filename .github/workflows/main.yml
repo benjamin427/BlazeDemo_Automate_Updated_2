@@ -6,8 +6,10 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+        with:
+          uses: cypress/support/e2e.js
       - name: cypress.io
         uses: cypress-io/github-action@v6
         with:
           start: npx cypress run --e2e cypress/**/features/*.cy.js 
-          uses: cypress/**/support/e2e.js          
+#          uses: cypress/**/support/e2e.js          
