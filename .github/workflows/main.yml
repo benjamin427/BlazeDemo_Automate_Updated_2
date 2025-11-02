@@ -8,7 +8,7 @@ jobs:
         uses: actions/checkout@v4
       - name: cypress.io
         uses: cypress-io/github-action@v6
-        working-directory: cypress/support/e2e.js
         with:
-         start: npx cypress run --e2e cypress/**/features/*.cy.js 
+        - working-directory: cypress/support/e2e.js
+          start: npx cypress run --e2e cypress/**/features/*.cy.js 
           
