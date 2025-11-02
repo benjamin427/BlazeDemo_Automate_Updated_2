@@ -9,5 +9,5 @@ jobs:
       - name: cypress.io
         uses: cypress-io/github-action@v6
         with:
-#          start: npx cypress run --e2e cypress/**/features/*.cy.js 
-          start: cypress/**/support/e2e.js          
+          start: npx cypress run --e2e cypress/**/features/*.cy.js 
+          uses: cypress/**/support/e2e.js          
