@@ -10,4 +10,4 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
 #          start: npx cypress run --e2e cypress/**/features/*.cy.js 
-          start: cypress/support/e2e.js          
+          start: cypress/**/support/e2e.js          
