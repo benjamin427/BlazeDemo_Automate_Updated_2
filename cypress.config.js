@@ -13,7 +13,7 @@ module.exports = defineConfig({
       addCucumberpreprocessor(on, config)
       return config
     },
-    specPattern: '**/*.feature',
+//    specPattern: '**/*.feature',
 //    specPattern: 'cypress/*.cy.js',
     supportFile: 'cypress/support/e2e.js'
   },
