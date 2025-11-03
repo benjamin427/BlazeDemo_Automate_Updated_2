@@ -9,5 +9,6 @@ jobs:
       - name: cypress.io
         uses: cypress-io/github-action@v6
         with:
+          working-directory: ./BlazeDemo_Automate_Updated_3
           start: npm run cypress:run:electron 
 #          uses: cypress/**/support/e2e.js          
