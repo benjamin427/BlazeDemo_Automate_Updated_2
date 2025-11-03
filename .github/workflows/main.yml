@@ -3,12 +3,15 @@ on: [push]
 jobs: 
   BlazeDemo_cypress_browser_electron:
     runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: ./BlazeDemo_Automate_Updated_3/cypress
     steps:
       - name: checkout
         uses: actions/checkout@v4
       - name: cypress.io
         uses: cypress-io/github-action@v6
         with:
-          working-directory: ./BlazeDemo_Automate_Updated_3/cypress
+#          working-directory: ./BlazeDemo_Automate_Updated_3/cypress
           start: npm run cypress:run:electron 
 #          uses: cypress/**/support/e2e.js          
