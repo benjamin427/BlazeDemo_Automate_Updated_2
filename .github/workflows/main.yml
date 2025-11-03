@@ -3,9 +3,9 @@ on: [push]
 jobs: 
   BlazeDemo_cypress_browser_electron:
     runs-on: windows-latest
-    defaults:
-      run:
-        working-directory: ./BlazeDemo_Automate_Updated_3
+#    defaults:
+#      run:
+#        working-directory: ./BlazeDemo_Automate_Updated_3
     steps:
       - name: checkout
         uses: actions/checkout@v4
